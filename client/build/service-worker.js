@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cocktail-party-test/precache-manifest.f65ae522799673c626e22c295fc7d05e.js"
+  "/cocktail-party-test/client/precache-manifest.1f3d3cfcfef2f0982e04c32c61b2f064.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cocktail-party-test/index.html", {
+workbox.routing.registerNavigationRoute("/cocktail-party-test/client/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
